@@ -10,9 +10,11 @@ const Tetris = () => {
         <div>
             <Stage/>
             <aside>
-                <Display text="Score" />
-                <Display text="Score" />
-                <Display text="Score" />
+                <div>
+                    <Display text="Score" />
+                    <Display text="Rows" />
+                    <Display text="Level" />
+                </div>
                 
             </aside>
 
