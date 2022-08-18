@@ -8,7 +8,7 @@ const Tetris = () => {
 
 
     return (
-        <div>
+        <StyledTetrisWrapper>
             <Stage stage={createStage()} />
             <aside>
                 <div>
@@ -19,7 +19,7 @@ const Tetris = () => {
                 <StartButton />
             </aside>
 
-        </div>
+        </StyledTetrisWrapper>
     )
 }
 
